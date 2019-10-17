@@ -1,6 +1,6 @@
 <?php
 //Definición de variable global
-$url="http://127.0.0.1/angularJsMvcMysqli/";
+$url="https://practica2-sergio.paiza-user.cloud/~ubuntu/";
 
 //Definir el código de caracteres
 header('Content-Type: text/html; charset=utf-8');

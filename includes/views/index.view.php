@@ -29,7 +29,7 @@
 				    <tr>
 				      <th>#</th>
 				      <th>Nombre</th>
-				      <th>Fecha</th>
+				      <th>Direccion</th>
 				      <th><button ng-click="add()" class="btn btn-success btn-sm"><i class="fa fa-file-o" aria-hidden="true"></i></button>&nbsp;Nuevo</th>
 				    </tr>
 				  </thead>
@@ -37,7 +37,7 @@
 				  		<tr ng-repeat="persona in personas track by $index">
 				  			<td>{{ persona.id }}</td>
 				  			<td>{{ persona.nombre }}</td>
-							<td>{{ persona.fechaCreacion|limitTo:10 }}</td>
+						    <td>{{ persona.direccion}}</td>
 							<td>
 								<button class="btn btn-primary btn-sm" ng-click="view(persona.id)"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button> &nbsp;
 								<button class="btn btn-danger btn-sm" ng-click="delete(persona.id)" data-toggle='confirmation' data-singleton='true' data-placement='top'>  <i class="fa fa-times" aria-hidden="true"></i>Borrar</button>
