@@ -199,7 +199,7 @@ class Personas {
 	}
 
 	public function delete() {
-
+//
 		// Initialize affected rows
 		$affected_rows = FALSE;
 	
